@@ -1,0 +1,20 @@
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB\Assignment 4 WEB+DB\Assignment 4 WEB+DB\bin\Assignment 4 WEB+DB.dll
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB\Assignment 4 WEB+DB\Assignment 4 WEB+DB\bin\Assignment 4 WEB+DB.pdb
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB\Assignment 4 WEB+DB\Assignment 4 WEB+DB\bin\Assignment 4 WEB+DB.xml
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB\Assignment 4 WEB+DB\Assignment 4 WEB+DB\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB\Assignment 4 WEB+DB\Assignment 4 WEB+DB\obj\Debug\Assignment_4_WEB_DB.Resources.resources
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB\Assignment 4 WEB+DB\Assignment 4 WEB+DB\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB\Assignment 4 WEB+DB\Assignment 4 WEB+DB\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB\Assignment 4 WEB+DB\Assignment 4 WEB+DB\obj\Debug\Assignment 4 WEB+DB.dll
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB\Assignment 4 WEB+DB\Assignment 4 WEB+DB\obj\Debug\Assignment 4 WEB+DB.xml
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB\Assignment 4 WEB+DB\Assignment 4 WEB+DB\obj\Debug\Assignment 4 WEB+DB.pdb
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB - 11.04.13\Assignment 4 WEB+DB\Assignment 4 WEB+DB\bin\Assignment 4 WEB+DB.dll
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB - 11.04.13\Assignment 4 WEB+DB\Assignment 4 WEB+DB\bin\Assignment 4 WEB+DB.pdb
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB - 11.04.13\Assignment 4 WEB+DB\Assignment 4 WEB+DB\bin\Assignment 4 WEB+DB.xml
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB - 11.04.13\Assignment 4 WEB+DB\Assignment 4 WEB+DB\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB - 11.04.13\Assignment 4 WEB+DB\Assignment 4 WEB+DB\obj\Debug\Assignment_4_WEB_DB.Resources.resources
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB - 11.04.13\Assignment 4 WEB+DB\Assignment 4 WEB+DB\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB - 11.04.13\Assignment 4 WEB+DB\Assignment 4 WEB+DB\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB - 11.04.13\Assignment 4 WEB+DB\Assignment 4 WEB+DB\obj\Debug\Assignment 4 WEB+DB.dll
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB - 11.04.13\Assignment 4 WEB+DB\Assignment 4 WEB+DB\obj\Debug\Assignment 4 WEB+DB.xml
+C:\Users\Andrea\Desktop\Assignment 4 WEB+DB - 11.04.13\Assignment 4 WEB+DB\Assignment 4 WEB+DB\obj\Debug\Assignment 4 WEB+DB.pdb

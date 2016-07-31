@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{205D29AF-6F45-4BBB-B0A4-E8A9DC743156}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Assignment_4_WEB_DB</RootNamespace>
+    <AssemblyName>Assignment 4 WEB+DB</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Assignment 4 WEB+DB.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Assignment 4 WEB+DB.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.aspx.designer.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs.aspx.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="App_Data\Category\CategoryData.vb" />
+    <Compile Include="App_Data\Category\CategoryFunction.vb" />
+    <Compile Include="App_Data\Category\CategoryValidation.vb" />
+    <Compile Include="App_Data\Conn.vb" />
+    <Compile Include="App_Data\OrderFunction.vb" />
+    <Compile Include="App_Data\ShoppingCart\ShoppingCartData.vb" />
+    <Compile Include="App_Data\ShoppingCart\ShoppingCartFunction.vb" />
+    <Compile Include="App_Data\ShoppingCart\ShoppingCartValidation.vb" />
+    <Compile Include="App_Data\User\UserData.vb" />
+    <Compile Include="App_Data\User\UserFunction.vb" />
+    <Compile Include="App_Data\User\UserValidation.vb" />
+    <Compile Include="App_Data\Vehicle\VehicleData.vb" />
+    <Compile Include="App_Data\Vehicle\VehicleFunction.vb" />
+    <Compile Include="App_Data\Vehicle\VehicleValidation.vb" />
+    <Compile Include="ContactUs.aspx.vb">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.master.vb">
+      <DependentUpon>MasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NewCars.aspx.designer.vb">
+      <DependentUpon>NewCars.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewCars.aspx.vb">
+      <DependentUpon>NewCars.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="NewCarsSingleView.aspx.designer.vb">
+      <DependentUpon>NewCarsSingleView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewCarsSingleView.aspx.vb">
+      <DependentUpon>NewCarsSingleView.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsedCars.aspx.designer.vb">
+      <DependentUpon>UsedCars.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsedCars.aspx.vb">
+      <DependentUpon>UsedCars.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="UserPanel.aspx.designer.vb">
+      <DependentUpon>UserPanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPanel.aspx.vb">
+      <DependentUpon>UserPanel.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\page101-1012-full.psd" />
+    <Content Include="AboutUs.aspx" />
+    <Content Include="Images\AudiA3AA01.jpg" />
+    <Content Include="Images\AudiA3AA01Ext.jpg" />
+    <Content Include="Images\AudiA3AA01FR.jpg" />
+    <Content Include="Images\AudiA3AA01Int.jpg" />
+    <Content Include="Images\AudiA3AA01Int2.jpg" />
+    <Content Include="Images\AudiA3AA01RE.jpg" />
+    <Content Include="Images\C300c - Front.jpg" />
+    <Content Include="Images\C300c - FrontClose.jpg" />
+    <Content Include="Images\C300c - Int.jpg" />
+    <Content Include="Images\C300c - Side.jpg" />
+    <Content Include="Images\Citroen.C4CC01.Int2.jpg" />
+    <Content Include="Images\CitroenC4CC01.jpg" />
+    <Content Include="Images\CitroenC4CC01Int.jpg" />
+    <Content Include="Images\CitroenC4CC01Int2.jpg" />
+    <Content Include="Images\FordKugaSide.jpg" />
+    <Content Include="Images\FordKugaSide2.jpg" />
+    <Content Include="Images\ForKugaInt.jpg" />
+    <Content Include="Images\Honda CRV - HC01.jpg" />
+    <Content Include="Images\HondaCRZHC01Fr.jpg" />
+    <Content Include="Images\HondaCRZHC01Int.jpg" />
+    <Content Include="Images\HondaCRZHC01Int2.jpg" />
+    <Content Include="Images\HondaCRZHC01RE.jpg" />
+    <Content Include="Images\HondaCRZHC01Side.jpg" />
+    <Content Include="Images\Jaguar XF - Front.jpg" />
+    <Content Include="Images\Jaguar XF - Int.jpg" />
+    <Content Include="Images\Jaguar XF - Side.jpg" />
+    <Content Include="Images\Jaguar XF - SideRear.jpg" />
+    <Content Include="Images\LexusIS220LI01.JPG" />
+    <Content Include="Images\Nissan GTR - NG01.jpg" />
+    <Content Include="Images\Nissan Qashqai - Boot.jpg" />
+    <Content Include="Images\Nissan Qashqai - Front.jpg" />
+    <Content Include="Images\Nissan Qashqai - Int.jpg" />
+    <Content Include="Images\shopping-cart.png" />
+    <Content Include="Images\Toyota Yaris - TY01.jpg" />
+    <Content Include="Images\VEOS-Front.jpg" />
+    <Content Include="Images\VEOS-Int.jpg" />
+    <Content Include="Images\VEOS-Side.jpg" />
+    <Content Include="Images\VEOS-Side2.jpg" />
+    <Content Include="Login.aspx" />
+    <Content Include="MasterPage.master" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="NewCars.aspx" />
+    <Content Include="NewCarsSingleView.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="UsedCars.aspx" />
+    <Content Include="UserPanel.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="ContactUs.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Images\banner.gif" />
+    <Content Include="Images\page101-1012-full.jpg" />
+    <Content Include="Images\page83-1003-full.gif" />
+    <Content Include="Images\page83-1003-full.jpg" />
+    <Content Include="Images\shopping_cart.gif" />
+    <Content Include="Images\shopping_cart.png" />
+    <Content Include="Styles\StyleSheet.css" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50717</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

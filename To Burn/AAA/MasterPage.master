@@ -1,0 +1,79 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <title>A & A Autotrading Limited</title>
+    <link href="Styles/StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div id="wrapper">
+
+            <!--The below code is used for the top bar, that will include the search field, register, login and cart buttons-->  
+            <div id="top_bar">
+                      
+                <asp:Label ID="lblSearch" runat="server" Text="Search by Model / Make:"></asp:Label>
+                      
+                &nbsp;<asp:TextBox ID="txtbSearch" runat="server" Width="180px" Height="20px"></asp:TextBox>
+                      
+                &nbsp;<asp:Button ID="btnSearch" runat="server" Text="GO" Width="40px" Height="25px" />
+             
+
+                <ul id="top_shpcart"> 
+                    <li><a href="#"><asp:ImageButton ID="IbtnCart" src="Images/shopping_cart.png" width="35px" runat="server" height="30px" /></a></li>
+                </ul>
+
+                <ul id="top_reglog"> 
+                    <li> <a href="Login.aspx"><asp:Button ID="btnLogout" runat="server" Text="LOGOUT" Height="20px" Visible="false" /></a></li>
+                    <li>  [ <a href="UserPanel.aspx"><asp:LinkButton ID="lbtnUserLogged" runat="server" Text="?"></asp:LinkButton></a>  ]|</li>
+                    <li>   ||  <asp:Label ID="lblLog" runat="server" Text="Logged in as: " 
+                            ForeColor="#33FFFF"></asp:Label></li>
+                    <li>   ||  <a href="Login.aspx"><asp:Label ID="lblLogin" runat="server" Text="LOGIN"></asp:Label></a></li>
+                    <li>||  <a href="Register.aspx">REGISTER</a></li>
+                </ul>
+                      
+            </div>
+                
+            <!--A & A Autotrading Banner--> 
+            <div id="banner">
+                <a href="Home.aspx"><img src="Images/banner.gif" width="100%"/></a>
+            </div>
+
+            <div id="menu_bar">
+                <ul id="menu">
+                    <li><a href="Home.aspx">HOME</a></li>
+                    <li><a href="AboutUs.aspx">ABOUT US</a></li>
+                    <li><a href="NewCars.aspx">NEW CARS</a></li>
+                    <li><a href="UsedCars.aspx">USED CARS</a></li>
+                    <li><a href="CustomerCars.aspx">MY CARS</a></li>
+                    <li><a href="ContactUs.aspx">CONTACT US</a></li>
+                </ul>
+            </div>
+
+            <!--Middle Banner (pages body)-->          
+            <div id="content_area">
+
+               <div id="content_Home">
+                
+                   <asp:ContentPlaceHolder ID="ContentPlaceHolderHome" runat="server">
+               
+                   </asp:ContentPlaceHolder>
+                    
+               </div> 
+
+            </div>
+
+            <!--Footer bar-->
+            <div id="footer_bar">
+                <p> © 2013 A & A Autotrading Limited </p>
+            </div>
+
+            <!--The above code will be used for all pages apart for some modifications-->
+        </div>
+    </form>
+</body>
+</html>

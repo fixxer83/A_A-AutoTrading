@@ -1,0 +1,388 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Assignment4WEB+DB
+</name>
+</assembly>
+<members>
+<member name="F:Assignment_4_WEB_DB.Login.lblCredentialsVal">
+	<summary>
+lblCredentialsVal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.Login.lblUserID">
+	<summary>
+lblUserID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.Login.lblIsAdmin">
+	<summary>
+lblIsAdmin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.Login.txtUserName">
+	<summary>
+txtUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.Login.lblUserNameVal">
+	<summary>
+lblUserNameVal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.Login.txtPWD">
+	<summary>
+txtPWD control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.Login.lblPwdVal">
+	<summary>
+lblPwdVal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.Login.btnLogin">
+	<summary>
+btnLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.iBtnShopCart">
+	<summary>
+iBtnShopCart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.lblTotal">
+	<summary>
+lblTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.lblShopItems">
+	<summary>
+lblShopItems control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.VName">
+	<summary>
+VName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.lblVID">
+	<summary>
+lblVID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.lblUserID">
+	<summary>
+lblUserID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.lblCategory">
+	<summary>
+lblCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.LargeVImg">
+	<summary>
+LargeVImg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.btnImg1">
+	<summary>
+btnImg1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.btnImg2">
+	<summary>
+btnImg2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.btnImg3">
+	<summary>
+btnImg3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.btnImg4">
+	<summary>
+btnImg4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.btnImg5">
+	<summary>
+btnImg5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.btnImg6">
+	<summary>
+btnImg6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.VTrans">
+	<summary>
+VTrans control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.VEngine">
+	<summary>
+VEngine control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.VFuel">
+	<summary>
+VFuel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.VColor">
+	<summary>
+VColor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.VCond">
+	<summary>
+VCond control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.VDescTxt">
+	<summary>
+VDescTxt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.lblPrice">
+	<summary>
+lblPrice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.btnAddCart">
+	<summary>
+btnAddCart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.btnVehDel">
+	<summary>
+btnVehDel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.btnBackToVeh">
+	<summary>
+btnBackToVeh control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCarsSingleView.gvVehicle">
+	<summary>
+gvVehicle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.Register.NameTxt">
+	<summary>
+NameTxt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.Register.SurnameTxt">
+	<summary>
+SurnameTxt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.Register.UserNameTxt">
+	<summary>
+UserNameTxt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.Register.PWDtxt">
+	<summary>
+PWDtxt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.Register.PwdExLbl">
+	<summary>
+PwdExLbl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.Register.PWDMatchTxt">
+	<summary>
+PWDMatchTxt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.Register.PwdMatchExLbl">
+	<summary>
+PwdMatchExLbl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.Register.btnRegister">
+	<summary>
+btnRegister control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:Assignment_4_WEB_DB.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:Assignment_4_WEB_DB.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:Assignment_4_WEB_DB.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:Assignment_4_WEB_DB.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:Assignment_4_WEB_DB.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:Assignment_4_WEB_DB.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:Assignment_4_WEB_DB.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:Assignment_4_WEB_DB.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Assignment_4_WEB_DB.NewCars.gvVehicle">
+	<summary>
+gvVehicle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Assignment_4_WEB_DB.UsedCars.gvVehicle">
+	<summary>
+gvVehicle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
